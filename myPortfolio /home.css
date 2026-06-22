@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+#contain{
+    margin: 10px auto;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+#header {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+header img {
+    padding: 20px 0 ;
+    height: 100px;
+    
+}
+
+header nav {
+    padding: 20px 0 ;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#projects{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#projects h3, #projects p{
+    padding:10px;
+    border-bottom:2px solid black ;
+}
+
+#workExp h3{
+    text-align: center;
+}
+
+.workExpInner{
+    padding:10px 0px 20px 10px; 
+}
+
+.workExpInner h5{
+    padding-bottom: 10px;
+}
+
+#education{
+    border-top: 2px solid black;
+    
+}
+
+#education h3{
+    text-align: center;
+}
+
+#education h3 , #education .eductionDetail{
+    padding-bottom: 20px;
+}
+#education p{
+    padding: 0 0 10px 10px;
+}
+
+#education ul{
+    margin:10px 0 10px 30px ;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card div{
+margin: 20px;
+border: 2px solid black;
+border-radius: 20px;
+padding:10px;
+}
+
+#card p{
+    padding-top: 10px;
+    color:gray;
+}
+
+#footer .last2{
+    display: none;
+}
+
+
+@media (min-width:800px) {
+    body{
+        background-color: rgb(184, 212, 212);
+    }
+
+    #contain{
+        width: 90vw;
+    }
+
+    
+
+    
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav{
+        margin-right: 10px;
+    }
+
+    header img{
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    #myProfile{
+        display: flex;
+        align-items: center;
+    }
+
+    #myProfile h2{
+        display: inline-block;
+        font-size: 15px;
+        padding-left: 10px;
+
+    }
+
+    #header .skill{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        display: flex;
+        border-bottom: 2px solid black;
+    }
+    
+    #projects{
+        width: 35vw;
+    }
+
+    #projects .lastP{
+        border: none;
+    }
+
+    #workExp{
+        border-left:2px solid black;
+        border-right:2px solid black;
+        
+    }
+
+    #footer .last2{
+        display: block;
+
+    }
+
+    #card{
+        display: flex;
+    }
+    
+}
