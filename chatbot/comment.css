@@ -1,0 +1,138 @@
+@media (max-width:800px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.contain{
+    background-color: wheat;
+    padding: 20px;
+}
+
+.cardbody{ 
+    margin: 20px;
+    width: 350px;
+}
+
+.card1st{
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.trengal{
+    height: 0;
+    width: 0;
+    border-top: 20px solid rgb(42, 42, 42); 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+}
+
+.imgCard1{
+    display: flex;
+    align-items: center;
+}
+
+.img1st{
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.card1stBody{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.cardbody p,.bgWhiteCard  {
+    font-size: 20px;
+}
+
+.borderClass{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secBody{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.star{
+    color: rgb(255, 255, 41);
+    font-size: 25px;
+}
+
+.secImgBody{
+    border-radius: 20px;
+    height: 200px;
+}
+
+.secBodyDec{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    max-width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.posi{
+    color: gray;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+
+.thirdBody{
+    margin-top: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdBody img{
+    margin-top: 30px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.thirdBody h2{
+    font-size: larger;
+}
+
+.scroll{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#imgall2nd{
+    height: 80px;
+    opacity: 0.5;
+}
+}
