@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    font-size: 10px;
+
+}
+
+header h1{
+    padding:0 10px 0 0;
+    margin: 10px;
+}
+
+#first{
+    border-bottom: 2px solid gray;
+}
+
+.div{
+    width: 400px;
+    height: 100px;
+    color: azure;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#d2,#d3,#d4{
+    display: none;
+}
