@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input:hover{
+    background-color: rgb(158, 155, 155);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+button{
+    font-size: 15px;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover{
+    color: wheat;
+    background-color: rgb(37, 37, 37);
+}
+
